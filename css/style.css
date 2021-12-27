@@ -1,0 +1,126 @@
+/* RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: auto;
+    scrollbar-color: #6610f1 #131219;
+}
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 7px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #131219;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #6610f1;
+    border-radius: 10px;
+    border: none;
+  }
+body{
+    background-color: #131219;
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+}
+section.main{
+    margin: 30px auto;
+    text-align: center;
+    padding-top: 20px;
+}
+section.main img{
+    border-radius: 50%;
+}
+section.main h1{
+    font-size: 28px;
+    color: white;
+}
+section.main h2{
+    font-size: 18px;
+    color: #c7c7c7;
+}
+section.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.btn{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+section.box .btn a{
+    text-decoration: none;
+    background-size: 200% auto;
+    transition: 0.5s;
+    padding: 40px 0px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    margin: 8px 1%;
+}
+section.box .btn a:hover {
+    background-position: right center;
+}
+a.btn-ig {
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+    width: 100%;
+}
+a.btn-port {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    width: 48%;
+}
+a.btn-git{
+    background-image: linear-gradient(to right, #614385 0%, #516395  51%, #614385  100%);
+    width: 48%;
+}
+
+section.box-final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.contato{
+    width: 100%;
+    padding: 20px 1px;
+    margin: 20px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    background-color: #17161d;
+    border-radius: 10px;
+}
+div.contato h3{
+    padding-bottom: 40px;
+}
+div.contato a{
+    font-size: 16px;
+    color: white;
+}
+div.contato p{
+    color: #c7c7c7;
+    font-size: 13px;
+    padding-top: 40px;
+}
+.fa{
+    padding-right: 10px;
+    font-size: 22px;
+}
+div.contato  i{
+    font-size: 16px;
+    padding-right: 3px;
+}
+@media screen and (max-width: 768px){
+    a.btn-port {
+        width: 100%;
+    }
+    a.btn-git{
+        width: 100%;
+    }
+
+}
